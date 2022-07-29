@@ -1,0 +1,462 @@
+@media only screen and (min-width: 521px) and (max-width: 1170px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  body {
+    height: 100vh;
+  }
+
+  .inputPesquisa {
+    width: 75%;
+    height: 100%;
+    border: none;
+  }
+  .buttonPesquisa {
+    width: 10%;
+    height: 100%;
+    border: none;
+  }
+  .divPesquisa {
+    height: 100%;
+    width: 10%;
+    padding: 2px;
+    border: 1px solid rgb(202, 194, 194);
+    display: flex;
+  }
+
+  .buttonHeader {
+    border: none;
+  }
+  .divCategoria {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(81, 9, 148);
+    height: 5%;
+  }
+
+  .divCategorias {
+    width: 60%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    justify-content: space-around;
+  }
+  .h5Categoria {
+    color: white;
+    margin: 15px 10px;
+    align-items: center;
+  }
+  .buttonCategoria {
+    color: rgb(207, 146, 32);
+    border: none;
+    background-color: rgb(81, 9, 148);
+    font-weight: bolder;
+    font-size: larger;
+  }
+
+  .divImg {
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+  }
+  Img {
+    width: 80%;
+    height: 100%;
+  }
+  .divOpcoes {
+    width: 100%;
+    height: 13%;
+    background-color: rgb(207, 146, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonRacao {
+    background-image: url("https://img.myloview.com.br/quadros/racao-seca-alimento-de-cao-unico-vermelho-na-forma-redonda-700-145614619.jpg");
+    background-color: black;
+  }
+  .buttonBrinquedo {
+    background-image: url("/utils/wepik-photo-mode-2022628-141858.png");
+    background-color: black;
+  }
+  .buttonAcessorio {
+    background-image: url("/utils//wepik-photo-mode-2022628-142354.png");
+    background-color: black;
+  }
+
+  .buttonRacao,
+  .buttonBrinquedo,
+  .buttonAcessorio {
+    margin: 10px;
+    height: 80px;
+    width: 180px;
+    border: none;
+    color: white;
+    font-size: medium;
+  }
+
+  .divNovidades {
+    display: flex;
+    justify-content: center;
+  }
+  .divNovidades p {
+    color: rgb(138, 138, 138);
+    font-weight: bold;
+    font-size: medium;
+  }
+  .divProdutos {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  .divItens {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 23%;
+    margin: 5px;
+    text-align: center;
+  }
+
+  .imgProduto {
+    height: 60%;
+    width: 80%;
+  }
+
+  .categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 45%;
+    margin: 10px;
+  }
+
+  .categorias img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .divFooter {
+    width: 100%;
+    height: 35%;
+    background-color: rgb(81, 9, 148);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .divInfo {
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid rgb(207, 146, 32);
+  }
+
+  .divNewsletter {
+    margin-top: 20px;
+    width: 50%;
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divNewsletter input {
+    margin: 2px;
+    background-color: rgb(81, 9, 148);
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+  .divNewsletter button {
+    background-color: rgb(207, 146, 32);
+    color: white;
+    border: none;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer div div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  footer div p {
+    margin: 5px;
+  }
+  footer div h6 {
+    color: rgb(81, 9, 148);
+    font-size: small;
+  }
+
+  footer div p {
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  body {
+    height: 100vh;
+  }
+
+  .inputPesquisa {
+    width: 75%;
+    height: 100%;
+    border: none;
+  }
+  .buttonPesquisa {
+    width: 10%;
+    height: 100%;
+    border: none;
+  }
+  .divPesquisa {
+    height: 100%;
+    width: 20%;
+    padding: 2px;
+    border: 1px solid rgb(202, 194, 194);
+    display: flex;
+  }
+
+  .buttonHeader {
+    border: none;
+  }
+  .divCategoria {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(81, 9, 148);
+    height: 5%;
+  }
+
+  .divCategorias {
+    width: 60%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .h5Categoria {
+    color: white;
+    margin: 4px;
+    font-size: small;
+  }
+  .buttonCategoria {
+    color: rgb(207, 146, 32);
+    border: none;
+    background-color: rgb(81, 9, 148);
+    font-weight: bolder;
+    font-size: medium;
+  }
+
+  .divImg {
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+  }
+  Img {
+    width: 80%;
+    height: 100%;
+  }
+  .divOpcoes {
+    width: 100%;
+    height: 13%;
+    background-color: rgb(207, 146, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonRacao {
+    background-image: url("https://img.myloview.com.br/quadros/racao-seca-alimento-de-cao-unico-vermelho-na-forma-redonda-700-145614619.jpg");
+    background-color: black;
+  }
+  .buttonBrinquedo {
+    background-image: url("/utils/wepik-photo-mode-2022628-141858.png");
+    background-color: black;
+  }
+  .buttonAcessorio {
+    background-image: url("/utils//wepik-photo-mode-2022628-142354.png");
+    background-color: black;
+  }
+
+  .buttonRacao,
+  .buttonBrinquedo,
+  .buttonAcessorio {
+    margin: 10px;
+    height: 80px;
+    width: 180px;
+    border: none;
+    color: white;
+    font-size: medium;
+  }
+
+  .divNovidades {
+    display: flex;
+    justify-content: center;
+  }
+  .divNovidades p {
+    color: rgb(138, 138, 138);
+    font-weight: bold;
+    font-size: medium;
+  }
+  .divProdutos {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  .divItens {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 40%;
+    margin: 5px;
+  }
+  .Produto p {
+    height: 5%;
+    margin: 5%;
+  }
+
+  .imgProduto {
+    height: 60%;
+    width: 50%;
+  }
+
+  .categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+    margin: 10px;
+  }
+
+  .categorias img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .divFooter {
+    margin-top: 25%;
+    width: 100%;
+    height: 55%;
+    background-color: rgb(81, 9, 148);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .divInfo {
+    width: 50%;
+    color: white;
+    font-size: small;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 4px solid rgb(207, 146, 32);
+  }
+
+  .divNewsletter {
+    margin-top: 20px;
+    width: 40%;
+    height: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .divNewsletter input {
+    margin: 2px;
+    background-color: rgb(81, 9, 148);
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+  .divNewsletter button {
+    margin: 2px;
+    background-color: rgb(207, 146, 32);
+    color: white;
+    border: none;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer div div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  footer div p {
+    margin: 5px;
+    font-size: small;
+  }
+  footer div h6 {
+    color: rgb(81, 9, 148);
+    font-size: small;
+  }
+
+  footer p {
+    margin-top: 5%;
+  }
+}
