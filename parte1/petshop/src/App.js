@@ -218,7 +218,7 @@ function App() {
           </div>
           <div>
             <h6>PAGAMENTO</h6>
-            <div>
+            <div className="pagamento">
               <p>💳</p>
               <p>💳</p>
               <p>💳</p>
